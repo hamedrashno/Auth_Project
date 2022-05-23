@@ -6,7 +6,7 @@ require("./startup/db")();
 require("./startup/config")(app,express);
 require("./startup/logging")();
 
-const router = require("./src/routes/index-routes");
+const router = require("./src/routes/general-router");
 
 
 
