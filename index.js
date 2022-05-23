@@ -2,9 +2,9 @@
 
 const express = require("express");
 const app = express();
-require("./startup/db")();
-require("./startup/config")(app,express);
-require("./startup/logging")();
+require("./src/startup/db")();
+require("./src/startup/config")(app,express);
+require("./src/startup/logging")();
 
 const router = require("./src/routes/general-router");
 
