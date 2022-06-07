@@ -2,6 +2,6 @@
 
 Node Js,
 MongoDb,
-express,
-json web token,
-validator
+Express,
+Json Web Token,
+Validator
